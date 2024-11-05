@@ -7,7 +7,7 @@ on:
       - 'html/**' 
   pull_request:
     branches: [ "main" ]
-      paths:
+    paths:
       - 'html/**'
 
 jobs:
