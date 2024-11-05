@@ -3,11 +3,11 @@ name: Docker Image CI - HTML
 on:
   push:
     branches: [ "main" ]
-    paths:
+    path:
       - 'html/**' 
   pull_request:
     branches: [ "main" ]
-    paths:
+    path:
       - 'html/**'
 
 jobs:
